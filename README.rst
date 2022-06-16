@@ -48,7 +48,7 @@ Installation
 
 This is a typical Python library and can be installed using pip::
 
-    pip install xhtml2pdf
+    pip install wpa-xhtml2pdf
 
 
 Requirements

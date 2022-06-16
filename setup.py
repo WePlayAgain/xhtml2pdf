@@ -28,7 +28,6 @@ setup(
     version=xhtml2pdf.__version__,
     description="PDF generator using HTML and CSS",
     license="Apache License 2.0",
-    author="Dirk Holtwick",
     maintainer="Mib",
     maintainer_email="mib@weplayagain.com",
     url="https://github.com/WePlayAgain/xhtml2pdf.git",
@@ -40,7 +39,7 @@ setup(
                       "pyHanko>=0.12.1",
                       "pyhanko-certvalidator>=0.19.5"],
     include_package_data=True,
-    packages=find_packages(exclude=["tests", "tests.*", "manual_test", "manual_test.*"]),
+    packages=['xhtml2pdf'],
     #    test_suite = "tests", They're not even working yet
     entry_points={
         'console_scripts': [
