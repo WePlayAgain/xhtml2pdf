@@ -250,6 +250,7 @@ class PmlPageTemplate(PageTemplate):
             try:
 
                 # Paint static frames
+                self.isFirstFlow(canvas)
                 pagenumber = canvas.getPageNumber()
                 for frame in self.pisaStaticList:
                     frame = copy.deepcopy(frame)
