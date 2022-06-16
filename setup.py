@@ -24,14 +24,15 @@ README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
 
 setup(
-    name="xhtml2pdf",
+    name="wpa-xhtml2pdf",
     version=xhtml2pdf.__version__,
     description="PDF generator using HTML and CSS",
     license="Apache License 2.0",
     author="Dirk Holtwick",
-    maintainer="Luis Zarate",
-    maintainer_email="luisza14@gmail.com",
-    url="http://github.com/xhtml2pdf/xhtml2pdf",
+    maintainer="Mib",
+    maintainer_email="mib@weplayagain.com",
+    url="https://github.com/WePlayAgain/xhtml2pdf.git",
+    download_url="https://github.com/WePlayAgain/xhtml2pdf/archive/refs/tags/v0.2.8.1.tar.gz",
     keywords="PDF, HTML, XHTML, XML, CSS",
     install_requires=["html5lib>=1.0.1", "PyPDF3>=1.0.5", "Pillow>=8.1.1",
                       "reportlab>=3.5.53", "svglib>=1.2.1",
